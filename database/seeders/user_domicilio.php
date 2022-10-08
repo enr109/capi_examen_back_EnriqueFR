@@ -14,6 +14,6 @@ class user_domicilio extends Seeder
      */
     public function run()
     {
-        \App\Models\User_domicilio::factory(10)->create();
+        \App\Models\User_domicilio::factory(100)->create();
     }
 }
